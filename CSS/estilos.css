@@ -192,7 +192,7 @@ main .sobre-nosotros {
 }
 
 .abajo.active .parrafo {
-    max-height: 500px;
+    max-height: 700px;
     animation: fede 1s ease-in-out;
 }
 
