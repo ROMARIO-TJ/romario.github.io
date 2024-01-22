@@ -1,11 +1,16 @@
-const abajo = document.querySelectorAll('.abajo')
 
-abajo.forEach((pregunta) => {
-    pregunta.addEventListener("click", () => {
+const contenedor01 = document.querySelectorAll('.abajo')
 
-        pregunta.classList.toggle("active")
+contenedor01.forEach(function (contenedor) {
 
+    const btn = contenedor.querySelector('.pregunta')
+    btn.addEventListener('click', function () {
+        contenedor01.forEach(function (item) {
+            if (item !== contenedor) {
+                item.classList.remove('active')
+            }
+        })
 
+        contenedor.classList.toggle('active')
     })
-
-});
+})

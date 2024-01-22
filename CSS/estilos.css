@@ -16,10 +16,10 @@ header {
 .img__01 {
     position: relative;
     width: 100%;
-    height: 600px;
+    height: 400px;
     background: #000000;
     background: -webkit-linear-gradient(to right, hsla(0, 0%, 0%, 0.459), hsla(324, 2%, 51%, 0.664)), url();
-    background: linear-gradient(to right, hsla(0, 0%, 0%, 0.459), hsla(312, 2%, 42%, 0.664)), url(../IMG/romario_02.jpg);
+    background: linear-gradient(to right, hsla(0, 0%, 0%, 0.459), hsla(312, 2%, 42%, 0.664)), url(../IMG/IMG-08.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -35,10 +35,9 @@ header {
     width: 200px;
     height: 200px;
     position: absolute;
-    bottom: 5%;
-    left: 5%;
+    bottom: -10%;
+    right: 5%;
     overflow: hidden;
-    border-radius: 100%;
     border: solid 4px #fff;
     z-index: 1;
 }
@@ -86,7 +85,8 @@ header {
 
 
 main .sobre-nosotros {
-    padding: 30px 0 60px 0;
+    padding: 80px 0 60px 0;
+    
 }
 
 .contenedor-sobre-nosotros {
@@ -449,7 +449,7 @@ footer{
     .img__02 {
         width: 100px;
         height: 100px;
-        bottom: 10%;
+        bottom: -5%;
 
     }
 
