@@ -49,7 +49,7 @@ header {
 }
 
 .img__01::before {
-    content: "Bienvenido a mi web";
+    content:"";
     display: grid;
     justify-content: center;
     align-items: center;
@@ -107,7 +107,7 @@ main .sobre-nosotros {
     width: 70%;
     height: 100%;
     display: flex;
-    justify-content:flex-start;
+    justify-content: right;
     
   
 }
@@ -125,7 +125,7 @@ main .sobre-nosotros {
 }
 
 .contenido-textos h3 span {
-    background: #4ae4ff;
+    background: #000000;
     color: #fff;
     border-radius: 50%;
     display: flex;
@@ -227,7 +227,7 @@ main .sobre-nosotros {
     align-items: center;
     background: #000000;
     background: -webkit-linear-gradient(to right, hsla(0, 0%, 0%, 0.459), hsla(324, 2%, 51%, 0.664));
-    background: linear-gradient(to right, hsla(0, 0%, 0%, 0.459), hsla(312, 2%, 42%, 0.664)), url(../IMG/vida.jpg);
+    background: linear-gradient(to right, hsla(0, 0%, 0%, 0.459), hsla(312, 2%, 42%, 0.664)), url(../IMG/img6.jpg);
     background-size: cover;
     background-attachment: fixed;
     
@@ -353,7 +353,7 @@ footer{
 
 .content-foo h4{
     color: #fff;
-    border-bottom: 3px solid #2023d3;
+    border-bottom: 3px solid #000000;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
